@@ -33,7 +33,7 @@ const WalletHistory: React.FC = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  });
 
   const formatDate = (dateString: string) => {
     if (!dateString) return '';
